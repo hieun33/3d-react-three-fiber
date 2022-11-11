@@ -27,6 +27,7 @@ function App() {
 
 				<ambientLight intensity={0.2} />
 				<Bulb position={[0, 3, 0]} />
+				{/* 드래그하고싶은 요소를 Dragable컴포넌트로 감싸줌 */}
 				<Dragable>
 					<Suspense fallback={null}>
 						<Box position={[-2, 1, 0]} />
